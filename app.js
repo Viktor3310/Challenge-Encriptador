@@ -53,7 +53,7 @@ botonEncriptar.addEventListener("click", () => {
                 recargar();
             }
 
-    if (texto != "") {
+        if (texto != "") {
             function encriptar(nuevoTexto) {
                 return nuevoTexto.replace(/[aeiou]/g, (match) => {
                     for (let i = 0; i < reemplazar.length; i++) {

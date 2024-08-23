@@ -6,10 +6,10 @@
 }
 
 :root {
-    --color-azul: #0a3871;
+    --color-azul: #5934FA;
 }
 
-body {
+body {  
     background-color: #f3f5fc;
     font-family: 'Inter', sans-serif;
 }
@@ -27,6 +27,7 @@ textarea {
 
 .imagen__logo {
     margin-top: 40px;
+    width: 8%;
 }
 
 /*Main*/
@@ -55,14 +56,14 @@ textarea {
     border: none;
     outline: none;
     resize: none;
-}
+}   
 
 .ingrese__texto::placeholder {
     color: var(--color-azul);
 }
 
 .color__info {
-    color: #495057;
+    color: #5934FA;
 }
 
 
@@ -121,7 +122,7 @@ textarea {
 }
 
 .imagen {
-    width: 100%;
+    width: 60%;
 }
 
 .oculto {
@@ -135,7 +136,7 @@ textarea {
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    color: #495057;
+    color: #5934FA;
 }
 
 .mensaje__final.ajustar {
@@ -145,7 +146,7 @@ textarea {
 }
 
 .informacion {
-    color: #495057;
+    color: #5934FA;
     font-size: 16px;
     text-align: center;
 }
